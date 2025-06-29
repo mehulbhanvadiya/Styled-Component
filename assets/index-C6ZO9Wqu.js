@@ -289,6 +289,9 @@ Error generating stack: `+l.message+`
             color: ${({theme:c})=>c.colors.black};
             transition: color 0.3s linear;
           }
+            &.active {
+              color: blue;
+            }
 
           &:hover,
           &:active {
